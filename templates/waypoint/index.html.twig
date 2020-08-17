@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% import '_/buttons.html.twig' as buttons %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('vue/waypoints') }}
+{% endblock %}
+
+{% block title %}Waypoint index{% endblock %}
+
+{% block body %}
+    <div class="float-right">
+        {{ buttons.new(path('waypoint_new')) }}
+    </div>
+
+    <h1>Waypoint index</h1>
+
+    <div id="app"></div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Lat</th>
+                <th>Lon</th>
+                <th>City</th>
+                <th>ImageLink</th>
+                <th>Guid</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for waypoint in waypoints %}
+            <tr>
+                <td>{{ waypoint.id }}</td>
+                <td>{{ waypoint.name }}</td>
+                <td>{{ waypoint.lat }}</td>
+                <td>{{ waypoint.lon }}</td>
+                <td>{{ waypoint.city }}</td>
+                <td>{{ waypoint.imageLink }}</td>
+                <td>{{ waypoint.guid }}</td>
+                <td>
+                    <a href="{{ path('waypoint_show', {'id': waypoint.id}) }}">show</a>
+                    <a href="{{ path('waypoint_edit', {'id': waypoint.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="8">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

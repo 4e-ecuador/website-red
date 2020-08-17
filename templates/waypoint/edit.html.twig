@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Waypoint{% endblock %}
+
+{% block body %}
+    <h1>Edit Waypoint</h1>
+
+    {{ include('waypoint/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('waypoint_index') }}">back to list</a>
+
+    {{ include('waypoint/_delete_form.html.twig') }}
+{% endblock %}

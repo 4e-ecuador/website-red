@@ -1,0 +1,20 @@
+{{ form_start(form) }}
+{{ form_errors(form) }}
+
+<div id="app"></div>
+{{ form_row(form.name) }}
+<div class="row">
+    <div class="col">
+        {{ form_row(form.lat) }}
+    </div>
+    <div class="col">
+        {{ form_row(form.lon) }}
+
+    </div>
+</div>
+{#    {{ form_widget(form) }}#}
+    <button class="btn">{{ button_label|default('Save') }}</button>
+{#{{ form_end(form) }}#}
+{{ form_widget(form._token) }}
+{# don't render unrendered fields #}
+{{ form_end(form, {'render_rest': false}) }}
