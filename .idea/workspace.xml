@@ -11,33 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/waypoint-form-fields.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/waypoint-form-fields.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/waypoint-row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/waypoint-row.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/WaypointController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WaypointController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Key.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Key.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/WaypointType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/WaypointType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/key/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/key/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/key/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/key/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waypoint/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/_delete_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waypoint/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waypoint/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/edit.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waypoint/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waypoint/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/waypoint/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/prod/monolog.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +193,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597698950895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="idea files">
+      <created>1597791726031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597791726031</updated>
+    </task>
+    <task id="LOCAL-00003" summary="idea files">
+      <created>1597791750418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597791750418</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Update">
+      <created>1597791772307</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597791772307</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +237,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Somethingsare working..." />
     <MESSAGE value="idea files" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea files" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="394" key="#Composer" timestamp="1597616709778">
@@ -264,5 +261,9 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="100" y="100" width="1720" height="844" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597759889217" />
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597791912359">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597791912359" />
   </component>
 </project>
