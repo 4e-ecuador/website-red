@@ -11,22 +11,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/frox-keys.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/waypoint-form-fields.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-fields/waypoint-form-fields.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/waypoint-row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/vue/components/waypoint-list/waypoint-row.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/WaypointController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WaypointController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Key.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Key.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/WaypointType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/WaypointType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_menu.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/key/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/key/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/key/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/key/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/_delete_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +187,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/vue/components/waypoint-form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -184,11 +195,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/js/vue/components/waypoint-form" />
-      <recent name="$PROJECT_DIR$/assets/js/vue/components" />
-      <recent name="$PROJECT_DIR$/assets/js/vue/pages" />
-      <recent name="$PROJECT_DIR$/assets/js/vue" />
       <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/assets/css" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/assets/js/vue/components/waypoint-form" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -200,6 +211,14 @@
       <option name="presentableId" value="Default" />
       <updated>1597616577916</updated>
     </task>
+    <task id="LOCAL-00001" summary="Somethingsare working...">
+      <created>1597698950895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597698950895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +236,12 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Somethingsare working..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Somethingsare working..." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="732" y="394" key="#Composer" timestamp="1597616709778">
       <screen x="0" y="0" width="1920" height="1044" />
@@ -230,5 +255,13 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="669" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1597618225867" />
+    <state x="698" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597762821086">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="698" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597762821086" />
+    <state x="100" y="100" width="1720" height="844" key="DiffContextDialog" timestamp="1597759889217">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="100" y="100" width="1720" height="844" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597759889217" />
   </component>
 </project>
