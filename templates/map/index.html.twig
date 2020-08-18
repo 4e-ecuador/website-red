@@ -1,0 +1,20 @@
+{#{% extends 'base.html.twig' %}#}
+
+{% extends 'base-map.html.twig' %}
+
+{% block title %}{{ 'Map'|trans }}{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ encore_entry_link_tags('map') }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {{ encore_entry_script_tags('map') }}
+{% endblock %}
+
+{% block body %}
+{#    <span id="jsData" data-mapgroups="{{ mapGroups|json_encode }}"></span>#}
+    <div id="map"></div>
+{% endblock %}

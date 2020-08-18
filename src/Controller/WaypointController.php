@@ -21,7 +21,7 @@ class WaypointController extends AbstractController
     public function index(WaypointRepository $waypointRepository): Response
     {
         return $this->render('waypoint/index.html.twig', [
-            'waypoints' => $waypointRepository->findAll(),
+            // 'waypoints' => $waypointRepository->findAll(),
         ]);
     }
 

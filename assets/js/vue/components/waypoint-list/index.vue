@@ -12,10 +12,8 @@
         <table class="table table-sm table-hover">
             <thead>
             <tr>
-                <th>Id</th>
                 <th>Name</th>
                 <th>City</th>
-                <th>Category</th>
                 <th>Action</th>
             </tr>
             </thead>

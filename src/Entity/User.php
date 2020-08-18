@@ -18,27 +18,32 @@ class User implements UserInterface
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
      */
-    private $id;
+    private ?int $id;
 
     /**
      * @ORM\Column(type="string", length=180, unique=true)
      */
-    private $email;
-
-    /**
-     * @ORM\Column(type="json")
-     */
-    private $roles = [];
+    private string $email = '';
 
     /**
      * @ORM\Column(type="string", length=100, nullable=true)
      */
-    private $googleId;
+    private ?string $username = '';
+
+    /**
+     * @ORM\Column(type="json")
+     */
+    private array $roles = [];
+
+    /**
+     * @ORM\Column(type="string", length=100, nullable=true)
+     */
+    private ?string $googleId = '';
 
     /**
      * @ORM\OneToMany(targetEntity=Key::class, mappedBy="user")
      */
-    private $waypointKeys;
+    private ?Collection $waypointKeys;
 
     public function __construct()
     {
@@ -47,7 +52,7 @@ class User implements UserInterface
 
     public function __toString()
     {
-        return $this->email;
+        return $this->username ?: $this->email;
     }
 
     public function getId(): ?int
@@ -74,7 +79,7 @@ class User implements UserInterface
      */
     public function getUsername(): string
     {
-        return (string) $this->email;
+        return (string) $this->username;
     }
 
     /**
@@ -160,6 +165,13 @@ class User implements UserInterface
                 $waypointKey->setUser(null);
             }
         }
+
+        return $this;
+    }
+
+    public function setUsername(?string $username): self
+    {
+        $this->username = $username;
 
         return $this;
     }

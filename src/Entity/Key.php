@@ -2,12 +2,15 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\KeyRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass=KeyRepository::class)
  * @ORM\Table(name="`key`")
+ *
+ * @ApiResource
  */
 class Key
 {

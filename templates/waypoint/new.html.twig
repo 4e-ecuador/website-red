@@ -1,4 +1,5 @@
 {% extends 'base.html.twig' %}
+{% import '_/buttons.html.twig' as buttons %}
 
 {% block javascripts %}
     {{ parent() }}
@@ -8,10 +9,11 @@
 {% block title %}New Waypoint{% endblock %}
 
 {% block body %}
+    <div class="btn-group float-right">
+        {{ buttons.back(path('waypoint_index')) }}
+    </div>
+
     <h1>Create new Waypoint</h1>
 
-
     {{ include('waypoint/_form.html.twig') }}
-
-    <a href="{{ path('waypoint_index') }}">back to list</a>
 {% endblock %}

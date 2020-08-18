@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\Waypoint;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\NumberType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -13,8 +14,34 @@ class WaypointType extends AbstractType
     {
         $builder
             ->add('name')
-            ->add('lat')
-            ->add('lon')
+            ->add(
+                'lat',
+                NumberType::class,
+                [
+                    'required' => false,
+                    'scale'    => 6,
+                    'attr'     => [
+                        'min'  => -90,
+                        'max'  => 90,
+                        'step' => 0.0000001,
+                    ],
+                ]
+            )
+            ->add(
+                'lon',
+                NumberType::class,
+                [
+                    'required' => false,
+                    'scale'    => 6,
+                    'attr'     => [
+                        'min'  => -90,
+                        'max'  => 90,
+                        'step' => 0.0000001,
+                    ],
+                ]
+            )
+            // ->add('lat')
+            // ->add('lon')
             ->add('city')
             ->add('imageLink')
             ->add('guid')

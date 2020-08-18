@@ -25,6 +25,7 @@ Encore
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
     .addEntry('app', './assets/js/app.js')
+    .addEntry('map', './assets/js/map.js')
 
     .addEntry('vue/waypoints', './assets/js/vue/waypoints.js')
     .addEntry('vue/waypoints-new', './assets/js/vue/waypoints-new.js')
@@ -55,23 +56,6 @@ Encore
         config.corejs = 3;
     })
 
-    // enables Sass/SCSS support
-    //.enableSassLoader()
-
-    // uncomment if you use TypeScript
-    //.enableTypeScriptLoader()
-
-    // uncomment to get integrity="..." attributes on your script & link tags
-    // requires WebpackEncoreBundle 1.4 or higher
-    //.enableIntegrityHashes(Encore.isProduction())
-
-    // uncomment if you're having problems with a jQuery plugin
-    //.autoProvidejQuery()
-
-    // uncomment if you use API Platform Admin (composer req api-admin)
-    //.enableReactPreset()
-    //.addEntry('admin', './assets/js/admin.js')
-
     .enableVueLoader()
 
     // This is our alias to the root vue components dir
@@ -80,7 +64,10 @@ Encore
         styles: path.resolve(__dirname, 'assets', 'scss'),
     })
 
-
+    .copyFiles({
+        from: './assets/img',
+        to: 'img/[path][name].[ext]',
+    })
 ;
 
 module.exports = Encore.getWebpackConfig();

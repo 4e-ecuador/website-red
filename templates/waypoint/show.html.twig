@@ -1,46 +1,60 @@
 {% extends 'base.html.twig' %}
+{% import '_/buttons.html.twig' as buttons %}
 
 {% block title %}Waypoint{% endblock %}
 
 {% block body %}
+    <div class="btn-group float-right">
+        {{ buttons.back(path('waypoint_index')) }}
+        {{ buttons.edit(path('waypoint_edit', {'id': waypoint.id})) }}
+        {{ include('waypoint/_delete_form.html.twig') }}
+    </div>
+
     <h1>Waypoint</h1>
 
     <table class="table">
         <tbody>
-            <tr>
-                <th>Id</th>
-                <td>{{ waypoint.id }}</td>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <td>{{ waypoint.name }}</td>
-            </tr>
-            <tr>
-                <th>Lat</th>
-                <td>{{ waypoint.lat }}</td>
-            </tr>
-            <tr>
-                <th>Lon</th>
-                <td>{{ waypoint.lon }}</td>
-            </tr>
-            <tr>
-                <th>City</th>
-                <td>{{ waypoint.city }}</td>
-            </tr>
-            <tr>
-                <th>ImageLink</th>
-                <td>{{ waypoint.imageLink }}</td>
-            </tr>
-            <tr>
-                <th>Guid</th>
-                <td>{{ waypoint.guid }}</td>
-            </tr>
+        {# <tr> #}
+        {# <th>Id</th> #}
+        {# <td>{{ waypoint.id }}</td> #}
+        {# </tr> #}
+        <tr>
+            <th>Name</th>
+            <td>{{ waypoint.name }}</td>
+        </tr>
+        <tr>
+            <th>Lat</th>
+            <td>{{ waypoint.lat }}</td>
+        </tr>
+        <tr>
+            <th>Lon</th>
+            <td>{{ waypoint.lon }}</td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td>{{ waypoint.city }}</td>
+        </tr>
+        {# <tr> #}
+        {# <th>ImageLink</th> #}
+        {# <td>{{ waypoint.imageLink }}</td> #}
+        {# </tr> #}
+        {# <tr> #}
+        {# <th>Guid</th> #}
+        {# <td>{{ waypoint.guid }}</td> #}
+        {# </tr> #}
+        <tr>
+            <th>Keys</th>
+            <td>
+                {# {{ dump(waypoint) }}</td> #}
+                <ul class="list-unstyled">
+                    {% for key in waypoint.waypointKeys %}
+                        {# {{ dump(key) }} #}
+                        <li>
+                            {{ key.user }}: <code>{{ key.count }}</code>
+                        </li>
+                    {% endfor %}
+                </ul>
+        </tr>
         </tbody>
     </table>
-
-    <a href="{{ path('waypoint_index') }}">back to list</a>
-
-    <a href="{{ path('waypoint_edit', {'id': waypoint.id}) }}">edit</a>
-
-    {{ include('waypoint/_delete_form.html.twig') }}
 {% endblock %}

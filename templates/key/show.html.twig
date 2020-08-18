@@ -4,12 +4,23 @@
 
 {% block body %}
     <h1>Key</h1>
+{{ dump(key) }}
 
+    {{ key.user }}
+    {{ key.waypoint }}
     <table class="table">
         <tbody>
             <tr>
                 <th>Id</th>
                 <td>{{ key.id }}</td>
+            </tr>
+            <tr>
+                <th>Waypoint</th>
+                <td>{{ key.waypoint }}</td>
+            </tr>
+            <tr>
+                <th>User</th>
+                <td>{{ key.user }}</td>
             </tr>
             <tr>
                 <th>Count</th>

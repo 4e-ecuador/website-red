@@ -9,6 +9,8 @@
         <thead>
             <tr>
                 <th>Id</th>
+                <th>Waypoint</th>
+                <th>User</th>
                 <th>Count</th>
                 <th>actions</th>
             </tr>
@@ -17,6 +19,8 @@
         {% for key in keys %}
             <tr>
                 <td>{{ key.id }}</td>
+                <td>{{ key.waypoint }}</td>
+                <td>{{ key.user }}</td>
                 <td>{{ key.count }}</td>
                 <td>
                     <a href="{{ path('key_show', {'id': key.id}) }}">show</a>

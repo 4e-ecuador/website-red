@@ -1,0 +1,28 @@
+<b>{{ waypoint.name }}</b>
+<hr>
+Keys:
+
+<table>
+    {% if not keys %}
+        <tr>
+            <td colspan="2">
+                No keys available
+            </td>
+        </tr>
+    {% endif %}
+    {% for user, count in keys %}
+        <tr>
+            <th>{{ user }}</th>
+            <td><code>{{ count }}</code></td>
+        </tr>
+    {% endfor %}
+    <tr>
+        <th>{{ user.username }}</th>
+        <td>
+            <input class="form-control form-control-sm" value="{{ userKeyCount }}">
+            <button class="btn btn-sm btn-outline-success" onClick="updateWaypointKeyCount({{ waypoint.id }}, {{ user.id }}, this.previousSibling.previousSibling.value)">
+                Update
+            </button>
+        </td>
+    </tr>
+</table>

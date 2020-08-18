@@ -1,8 +1,23 @@
+{% import '_/buttons.html.twig' as buttons %}
+
 {{ form_start(form) }}
 {{ form_errors(form) }}
 
+{# --- Vue app ---> #}
 <div id="app"></div>
-{{ form_row(form.name) }}
+{# <--- Vue app --- #}
+
+<h3>Data</h3>
+
+<div class="row">
+    <div class="col">
+        {{ form_row(form.name) }}
+    </div>
+    <div class="col">
+        {{ form_row(form.city) }}
+
+    </div>
+</div>
 <div class="row">
     <div class="col">
         {{ form_row(form.lat) }}
@@ -13,8 +28,9 @@
     </div>
 </div>
 {#    {{ form_widget(form) }}#}
-    <button class="btn">{{ button_label|default('Save') }}</button>
+
 {#{{ form_end(form) }}#}
 {{ form_widget(form._token) }}
 {# don't render unrendered fields #}
+{{ buttons.ok(button_label|default('Save'|trans)) }}
 {{ form_end(form, {'render_rest': false}) }}
