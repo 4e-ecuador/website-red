@@ -19,7 +19,7 @@ Keys:
     <tr>
         <th>{{ user.username }}</th>
         <td>
-            <input type="number" class="form-control form-control-sm" value="{{ userKeyCount }}">
+            <input type="number" min="0" class="form-control form-control-sm" value="{{ userKeyCount }}">
             <button class="btn btn-sm btn-outline-success" onClick="updateWaypointKeyCount({{ waypoint.id }}, {{ user.id }}, this.previousSibling.previousSibling.value)">
                 Update
             </button>
