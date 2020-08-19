@@ -12,7 +12,14 @@
   <component name="ChangeListManager">
     <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/map/_wp_info.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map/_wp_info.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/WaypointType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/WaypointType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base-map.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base-map.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/waypoint/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/waypoint/_form.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597800014554</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="idea">
+      <created>1597800361027</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597800361027</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update form">
+      <created>1597800378330</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597800378330</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,10 +346,11 @@
     <MESSAGE value="Add UserAdmin command" />
     <MESSAGE value="Add G login" />
     <MESSAGE value="Update form" />
-    <MESSAGE value="idea" />
     <MESSAGE value="Add controller smoke test" />
     <MESSAGE value="Update controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update controllers" />
+    <MESSAGE value="idea" />
+    <MESSAGE value="update form" />
+    <option name="LAST_COMMIT_MESSAGE" value="update form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="394" key="#Composer" timestamp="1597616709778">
@@ -359,9 +381,9 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="264" height="563" key="HiddenNamespacesPopup/0.0.1920.1044@0.0.1920.1044" timestamp="1597799396227" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597800024529">
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597800387173">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597800024529" />
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597800387173" />
   </component>
 </project>
