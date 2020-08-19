@@ -11,14 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/KeyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/KeyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MapController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MapController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/WaypointController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WaypointController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map/_wp_info.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map/_wp_info.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -282,7 +276,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597798822407</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="idea">
+      <created>1597799978948</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597799978948</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add controller smoke test">
+      <created>1597800001877</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597800001877</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Update controllers">
+      <created>1597800014554</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597800014554</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,9 +324,11 @@
     <MESSAGE value="Add HerokuDeployFinishedNotification" />
     <MESSAGE value="Add UserAdmin command" />
     <MESSAGE value="Add G login" />
-    <MESSAGE value="idea" />
     <MESSAGE value="Update form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update form" />
+    <MESSAGE value="idea" />
+    <MESSAGE value="Add controller smoke test" />
+    <MESSAGE value="Update controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update controllers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="394" key="#Composer" timestamp="1597616709778">
@@ -342,9 +359,9 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state width="264" height="563" key="HiddenNamespacesPopup/0.0.1920.1044@0.0.1920.1044" timestamp="1597799396227" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597798835788">
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597800024529">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597798835788" />
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597800024529" />
   </component>
 </project>
