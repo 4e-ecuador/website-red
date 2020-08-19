@@ -10,7 +10,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class WaypointType extends AbstractType
 {
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
             ->add('name')
@@ -18,12 +18,13 @@ class WaypointType extends AbstractType
                 'lat',
                 NumberType::class,
                 [
-                    'required' => false,
+                    'required' => true,
                     'scale'    => 6,
                     'attr'     => [
                         'min'  => -90,
                         'max'  => 90,
                         'step' => 0.0000001,
+                        'class' => 'latlon',
                     ],
                 ]
             )
@@ -31,24 +32,23 @@ class WaypointType extends AbstractType
                 'lon',
                 NumberType::class,
                 [
-                    'required' => false,
+                    'required' => true,
                     'scale'    => 6,
                     'attr'     => [
                         'min'  => -90,
                         'max'  => 90,
                         'step' => 0.0000001,
+                        'class' => 'latlon',
                     ],
                 ]
             )
-            // ->add('lat')
-            // ->add('lon')
-            ->add('city')
-            ->add('imageLink')
-            ->add('guid')
+            // ->add('city')
+            // ->add('imageLink')
+            // ->add('guid')
         ;
     }
 
-    public function configureOptions(OptionsResolver $resolver)
+    public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
             'data_class' => Waypoint::class,

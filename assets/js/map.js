@@ -27,13 +27,13 @@ function initmap(lat, lon) {
 
     let legend = L.control({position: 'topleft'})
     legend.onAdd = function (map) {
-        let groups = []// $('#jsData').data('mapgroups')
+        // let groups = $('#jsData').data('mapgroups')
         let div = L.DomUtil.create('div', 'info legend')
         div.innerHTML =
-            '<a class="btn btn-sm btn-outline-secondary" href="/">Home</a><br>'
-            + '<select id="groupSelect" class="selectpicker" data-style="btn-success" data-width="fit">'
-            + '<option>' + groups.join('</option><option>') + '</option>'
-            + '</select>'
+            '<a class="btn btn-sm btn-outline-secondary" href="/">Home</a>'//<br>'
+            // + '<select id="groupSelect" class="selectpicker" data-style="btn-success" data-width="fit">'
+            // + '<option>' + groups.join('</option><option>') + '</option>'
+            // + '</select>'
         div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation
         L.DomEvent.disableClickPropagation(div)
         return div
@@ -107,7 +107,6 @@ window.updateWaypointKeyCount = function (wpId, userId, count) {
     $.post(
         '/map/update-waypoint-key-count/'+wpId,
         {
-            // id: wpId,
             userId: userId,
             count: count
         }

@@ -5,3 +5,10 @@ body {
 a {
     color: limegreen;
 }
+
+.latlon, .latlon:focus {
+    font-family: monospace;
+    background-color: #0b2e13;
+    color: lime;
+    border-color: black;
+}

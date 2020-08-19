@@ -5,7 +5,8 @@
 {% block body %}
     {% if is_granted('ROLE_AGENT') %}
         <img class="img-fluid" src="{{ asset('build/img/4E-global-logo-red.svg') }}" alt="4E Logo">
-
+    {% elseif app.user %}
+        Your account has not been verified yet. Please contact an admin.
     {% else %}
         Hey =;)
     {% endif %}

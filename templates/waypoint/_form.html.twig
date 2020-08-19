@@ -9,15 +9,17 @@
 
 <h3>Data</h3>
 
-<div class="row">
-    <div class="col">
-        {{ form_row(form.name) }}
-    </div>
-    <div class="col">
-        {{ form_row(form.city) }}
+{{ form_row(form.name) }}
 
-    </div>
-</div>
+{#<div class="row">#}
+{#    <div class="col">#}
+{#        {{ form_row(form.name) }}#}
+{#    </div>#}
+{#    <div class="col">#}
+{#        {{ form_row(form.city) }}#}
+
+{#    </div>#}
+{#</div>#}
 <div class="row">
     <div class="col">
         {{ form_row(form.lat) }}

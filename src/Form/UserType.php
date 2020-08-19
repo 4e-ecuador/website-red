@@ -10,7 +10,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
 
 class UserType extends AbstractType
 {
-    public function buildForm(FormBuilderInterface $builder, array $options)
+    public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
             ->add('email')
@@ -21,9 +21,7 @@ class UserType extends AbstractType
                 [
                     'choices'  => [
                         'Admin'       => 'ROLE_ADMIN',
-                        'Editor'      => 'ROLE_EDITOR',
                         'Agent'       => 'ROLE_AGENT',
-                        'Intro Agent' => 'ROLE_INTRO_AGENT',
                         'User'        => 'ROLE_USER',
                     ],
                     'multiple' => true,
@@ -37,7 +35,7 @@ class UserType extends AbstractType
         ;
     }
 
-    public function configureOptions(OptionsResolver $resolver)
+    public function configureOptions(OptionsResolver $resolver): void
     {
         $resolver->setDefaults([
             'data_class' => User::class,
