@@ -1,0 +1,5 @@
+App\Entity\Waypoint:
+    waypoint1:
+        name: 'test'
+        lat: 0.0.1
+        lon: 0.0.1

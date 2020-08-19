@@ -1,0 +1,5 @@
+App\Entity\Key:
+    key1:
+        user: '@admin'
+        waypoint: '@waypoint1'
+        count: 1
