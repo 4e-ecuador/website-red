@@ -10,7 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="" />
+    <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frox-keys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frox-keys.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,6 +157,15 @@
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/hautelook/alice-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/apache-pack" />
+      <path value="$PROJECT_DIR$/vendor/knpuniversity/oauth2-client-bundle" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-client" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-google" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gCRQxqn8VKJPxPhHnB2dJbP5ga" />
@@ -160,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -168,11 +189,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$/src/Security" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/assets/js" />
-      <recent name="$PROJECT_DIR$/assets/js/vue/components/waypoint-form" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -219,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597792957307</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add HerokuDeployFinishedNotification">
+      <created>1597793219016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597793219016</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add UserAdmin command">
+      <created>1597795278144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597795278144</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +278,9 @@
     <MESSAGE value="Somethingsare working..." />
     <MESSAGE value="idea files" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Add HerokuDeployFinishedNotification" />
+    <MESSAGE value="Add UserAdmin command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add UserAdmin command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="394" key="#Composer" timestamp="1597616709778">
@@ -258,17 +295,21 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="669" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1597618225867" />
-    <state x="698" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597762821086">
+    <state x="698" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597796493518">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="698" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597762821086" />
+    <state x="698" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597796493518" />
     <state x="100" y="100" width="1720" height="844" key="DiffContextDialog" timestamp="1597759889217">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="100" y="100" width="1720" height="844" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1597759889217" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597792966656">
+    <state x="748" y="279" key="FileChooserDialogImpl" timestamp="1597796183905">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597792966656" />
+    <state x="748" y="279" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1597796183905" />
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597795287473">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597795287473" />
   </component>
 </project>
