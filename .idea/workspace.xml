@@ -11,17 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81fd14f8-61e7-404f-aedb-ff5f279ff26d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/frox-keys.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frox-keys.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/map/_wp_info.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/map/_wp_info.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +179,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/img" />
@@ -254,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597795278144</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="idea">
+      <created>1597797790900</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597797790900</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add G login">
+      <created>1597797808560</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597797808560</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +288,9 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Add HerokuDeployFinishedNotification" />
     <MESSAGE value="Add UserAdmin command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add UserAdmin command" />
+    <MESSAGE value="idea" />
+    <MESSAGE value="Add G login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add G login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="732" y="394" key="#Composer" timestamp="1597616709778">
@@ -307,9 +317,9 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="748" y="279" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1597796183905" />
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597795287473">
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2" timestamp="1597797816773">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597795287473" />
+    <state x="560" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1044@0.0.1920.1044" timestamp="1597797816773" />
   </component>
 </project>
