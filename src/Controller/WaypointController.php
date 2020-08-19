@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Waypoint;
 use App\Form\WaypointType;
 use App\Repository\WaypointRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -17,6 +18,7 @@ class WaypointController extends AbstractController
 {
     /**
      * @Route("/", name="waypoint_index", methods={"GET"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function index(WaypointRepository $waypointRepository): Response
     {
@@ -27,6 +29,7 @@ class WaypointController extends AbstractController
 
     /**
      * @Route("/new", name="waypoint_new", methods={"GET","POST"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function new(Request $request): Response
     {
@@ -50,6 +53,7 @@ class WaypointController extends AbstractController
 
     /**
      * @Route("/{id}", name="waypoint_show", methods={"GET"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function show(Waypoint $waypoint): Response
     {
@@ -60,6 +64,7 @@ class WaypointController extends AbstractController
 
     /**
      * @Route("/{id}/edit", name="waypoint_edit", methods={"GET","POST"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function edit(Request $request, Waypoint $waypoint): Response
     {
@@ -80,6 +85,7 @@ class WaypointController extends AbstractController
 
     /**
      * @Route("/{id}", name="waypoint_delete", methods={"DELETE"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function delete(Request $request, Waypoint $waypoint): Response
     {

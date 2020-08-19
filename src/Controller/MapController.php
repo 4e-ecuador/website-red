@@ -7,6 +7,7 @@ use App\Entity\Waypoint;
 use App\Repository\KeyRepository;
 use App\Repository\UserRepository;
 use App\Repository\WaypointRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -22,6 +23,7 @@ class MapController extends AbstractController
 {
     /**
      * @Route("/", name="map")
+     * @IsGranted("ROLE_AGENT")
      */
     public function index(): Response
     {
@@ -30,7 +32,7 @@ class MapController extends AbstractController
 
     /**
      * @Route("/waypoints", name="map-json")
-     * IsGranted("ROLE_AGENT")
+     * @IsGranted("ROLE_AGENT")
      */
     public function mapJson(
         WaypointRepository $waypointRepository,
@@ -65,7 +67,7 @@ class MapController extends AbstractController
 
     /**
      * @Route("/waypoint-info/{id}")
-     * IsGranted("ROLE_AGENT")
+     * @IsGranted("ROLE_AGENT")
      */
     public function mapAgentInfo(
         Security $security,
@@ -168,7 +170,7 @@ class MapController extends AbstractController
     }
     /**
      * @Route("/update-waypoint-key-count/{id}", name="update-waypoint-key-count")
-     * IsGranted("ROLE_AGENT")
+     * @IsGranted("ROLE_AGENT")
      */
     public function updateKeyCount(
         Waypoint $waypoint,

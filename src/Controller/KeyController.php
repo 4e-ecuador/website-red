@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Entity\Key;
 use App\Form\KeyType;
 use App\Repository\KeyRepository;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -17,6 +18,7 @@ class KeyController extends AbstractController
 {
     /**
      * @Route("/", name="key_index", methods={"GET"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function index(KeyRepository $keyRepository): Response
     {
@@ -27,6 +29,7 @@ class KeyController extends AbstractController
 
     /**
      * @Route("/new", name="key_new", methods={"GET","POST"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function new(Request $request): Response
     {
@@ -50,6 +53,7 @@ class KeyController extends AbstractController
 
     /**
      * @Route("/{id}", name="key_show", methods={"GET"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function show(Key $key): Response
     {
@@ -60,6 +64,7 @@ class KeyController extends AbstractController
 
     /**
      * @Route("/{id}/edit", name="key_edit", methods={"GET","POST"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function edit(Request $request, Key $key): Response
     {
@@ -80,6 +85,7 @@ class KeyController extends AbstractController
 
     /**
      * @Route("/{id}", name="key_delete", methods={"DELETE"})
+     * @IsGranted("ROLE_ADMIN")
      */
     public function delete(Request $request, Key $key): Response
     {
